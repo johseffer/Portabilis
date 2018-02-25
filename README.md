@@ -35,7 +35,7 @@ O número do CPF deve ser único para cada aluno;
 * 1.5.3 - Para fins de usabilidade, somente deverá mostrar matrículas ativas. Porém, caso uma opção no filtro seja acionada, as inativas poderão ser visualizadas.
 
 # 1.6 - Dashboard de matrícula
-* 1..6.1 - o “show” de matrícula será uma espécie de dashboard com várias informações:
+* 1.6.1 - o “show” de matrícula será uma espécie de dashboard com várias informações:
 - Dados do usuário
 - Informações do curso
 - Informações de pagamentos (matrícula e pagamentos mensais)
@@ -72,13 +72,15 @@ moedas de R$0,50, R$1,00, R$0,10, R$0,05 e R$0,01.
 ## 3.1 - Cadastro de alunos
 
 ### 3.1.1 - BUG311
-** Rotina: Cadastro de alunos
-** Simulação:
-** Critérios de aceite:
-*** CA3111: 
-**** Dado que exista um aluno com todos as parcelas pagas;
-**** Ao acessar o cadastro de alunos;
-**** O campo parcelas em aberto deve exibir o valor "Nenhuma";
+* Rotina: Cadastro de alunos
+
+* Simulação: Acessar home da aplicação, clicar no menu alunos, cadastrar aluno, informar os campos e clicar em salvar.
+
+* Critérios de aceite:
+* CA3111: 
+- Dado que exista um aluno com todos as parcelas pagas;
+- Ao acessar o cadastro de alunos;
+- O campo parcelas em aberto deve exibir o valor "Nenhuma";
 
 ## 2.2 - Cadastro de cursos
 ## 2.4 - Cadastro de matrículas
@@ -100,12 +102,12 @@ moedas de R$0,50, R$1,00, R$0,10, R$0,05 e R$0,01.
 * 5.1.1 - O projeto com as automações dos testes de interface foi desenvolvido utilizando projeto de Unit Tests .NET em conjunto com driver web Selenium.
 
 * 5.1.2 - Pré-Requisitos:
-** 5.1.2.1 - Visual Studio Community;
+* 5.1.2.1 - Visual Studio Community;
 
-* 5.1.3 - Localização: [a link](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests)
+* 5.1.3 - Localização: [Tests](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests)
 
 * 5.1.4 - Instruções de execução:
-** 5.1.4.1 - Após ter instalado o Visual Studio 2017, abrir o arquivo da solution (*.sln) em [a link](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/PortabilisTests.sln).
-** 5.1.4.2 - Será exibido a solution de testes com todos os testes organizados por rotina.
-** 5.1.4.3 - Executar o atalho de teclas "Ctrl+Shift+B" para baixar os pacotes necessários e compilar a solução.
-** 5.1.4.4 - Para facilitar a execução sem uso da interface da IDE, foi incluído um executável para startar a execução de todos os testes. Disponível em: [a link](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/ExecutarTestes.exe).
+* 5.1.4.1 - Após ter instalado o Visual Studio 2017, abrir o arquivo da solution (*.sln) em [PortabilisTests.sln](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/PortabilisTests.sln).
+* 5.1.4.2 - Será exibido a solution de testes com todos os testes organizados por rotina.
+* 5.1.4.3 - Executar o atalho de teclas "Ctrl+Shift+B" para baixar os pacotes necessários e compilar a solução.
+* 5.1.4.4 - Para facilitar a execução sem uso da interface da IDE, foi incluído um executável para startar a execução de todos os testes. Disponível em: [ExecutarTestes.exe](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/ExecutarTestes.exe).
