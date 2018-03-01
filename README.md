@@ -9,21 +9,36 @@
   - [x] Cadastro possui os campos em conformidade com os requisitos.
   - [x] Cadastro deve validar cadastro de registro com CPF duplicado.
   - [x] Cadastro deve emitir mensagem ao salvar e excluir um registro.
-<br /><br />**Total de requisitos em conformidade:** 3/3<br />**Total de bugs encontrados:** 0
+<br /><br />**Total de requisitos em conformidade:** 3/3
   
 ## 2.2 - Cadastro de cursos
   - [x] Cadastro possui os campos em conformidade com os requisitos.
-<br /><br />**Total de requisitos em conformidade:** 1/1<br />**Total de bugs encontrados:** 0
+<br /><br />**Total de requisitos em conformidade:** 1/1
 
 ## 2.4 - Cadastro de matrículas
+ - [x] Cadastro possui os campos em conformidade com os requisitos.
+<br /><br />**Total de requisitos em conformidade:** 1/1
+
 ## 2.5 - Listagem de matrículas
+ - [x] Cadastro possui os campos em conformidade com os requisitos.
+<br /><br />**Total de requisitos em conformidade:** 1/1
+
 ## 2.6 - Dashboard de matrícula
+ - [x] Cadastro possui os campos em conformidade com os requisitos.
+<br /><br />**Total de requisitos em conformidade:** 1/1
+
 ## 2.7 - Pagamento
+ - [x] Cadastro possui os campos em conformidade com os requisitos.
+<br /><br />**Total de requisitos em conformidade:** 1/1
+
 ## 2.8 - Cancelamento de matrículas
+ - [x] Cadastro possui os campos em conformidade com os requisitos.
+<br /><br />**Total de requisitos em conformidade:** 1/1
 
 # 3 - Lista de bugs com descrição para o desenvolvedor ajustar;
 
 ## 3.1 - Cadastro de alunos
+**Total de bugs encontrados:** 0
 
 ### 3.1.1 - BUG311
 **Rotina:** Cadastro de alunos
@@ -36,11 +51,22 @@
 <br />O campo parcelas em aberto deve exibir o valor "Nenhuma";
 
 ## 2.2 - Cadastro de cursos
+<br />**Total de bugs encontrados:** 0
+
 ## 2.4 - Cadastro de matrículas
+<br />**Total de bugs encontrados:** 0
+
 ## 2.5 - Listagem de matrículas
+<br />**Total de bugs encontrados:** 0
+
 ## 2.6 - Dashboard de matrícula
+<br />**Total de bugs encontrados:** 0
+
 ## 2.7 - Pagamento
+<br />**Total de bugs encontrados:** 0
+
 ## 2.8 - Cancelamento de matrículas
+<br />**Total de bugs encontrados:** 0
 
 # 4 - Protótipo de um checklist de teste;
 
