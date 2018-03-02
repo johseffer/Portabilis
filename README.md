@@ -165,3 +165,9 @@ O projeto com as automações dos testes de interface foi desenvolvido utilizand
 * 5.1.4.1 - Após ter instalado o Visual Studio 2017.
 * 5.1.4.2 - Executar o arquivo [build.exe](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/build.exe) para baixar os pacotes necessários e compilar a solução.
 * 5.1.4.3 - Para facilitar a execução sem uso da interface da IDE, foi incluído um executável para startar a execução de todos os testes. Disponível em: [ExecutarTodosTestes.exe](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/ExecutarTodosTestes.exe).
+* 5.1.4.4 - Para visualizar o código dos testes, é possível abrir o arquivo da solution [PortabilisTests.sln](https://github.com/johseffer/Portabilis/blob/master/Tests/PortabilisTests.sln) com a IDE.
+* 5.1.4.5 - Os scripts de testes foram organizados separadamente pelos cenários:
+  - 5.1.4.5.1 - CN001_Alunos.
+  - 5.1.4.5.2 - CN002_Cursos.
+  - 5.1.4.5.3 - CN001_Matriculas.
+* 5.1.4.6 - Os scripts foram criados para execução nos navegadores Google Chrome, Mozilla Firefox e Microsoft Edge, separados assim dentro do projeto com um diretório para cada navegador.
