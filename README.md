@@ -20,11 +20,21 @@
 
 ## 2.4 - Cadastro de matrículas
  - [x] Cadastro possui os campos em conformidade com os requisitos.
-<br /><br />**Total de requisitos em conformidade:** 1/1
+ 
+ - [x] Cadastro deve verificar aluno já matriculado em determinado curso.
+ 
+ - [x] Cadastro deve informar ativo/inativo, pagamento e ano.
+ 
+<br /><br />**Total de requisitos em conformidade:** 3/3
 
 ## 2.5 - Listagem de matrículas
  - [x] Cadastro possui os campos em conformidade com os requisitos.
-<br /><br />**Total de requisitos em conformidade:** 1/1
+ 
+ - [ ] Cadastro possui os filtros em conformidade com os requisitos.
+ 
+ - [x] Cadastro possui deve possuir funcionalidade de flag ativo/inativo.
+ 
+<br /><br />**Total de requisitos em conformidade:** 2/3
 
 ## 2.6 - Dashboard de matrícula
  - [x] Cadastro possui os campos em conformidade com os requisitos.
@@ -32,45 +42,66 @@
 
 ## 2.7 - Pagamento
  - [x] Cadastro possui os campos em conformidade com os requisitos.
- - [x] item 2
- - [x] item 3 
-<br /><br />**Total de requisitos em conformidade:** 1/1
+ - [x] Cadastro deve permitir pagamento de matricula/mensalidades, possibilitando troco ao cliente e informando quantidade de cedulas/moedas.
+ - [x] Matricula deve ser paga apenas uma vez.
+ - [x] Deve ser possível pagar e acompanhar as mensalidades mensalmente.
+ 
+<br /><br />**Total de requisitos em conformidade:** 4/4
 
 ## 2.8 - Cancelamento de matrículas
- - [x] Cadastro possui os campos em conformidade com os requisitos.
-<br /><br />**Total de requisitos em conformidade:** 1/1
+ - Não foi possível validar os requisitos.
 
 # 3 - Lista de bugs com descrição para o desenvolvedor ajustar;
 
 ## 3.1 - Cadastro de alunos
-**Total de bugs encontrados:** 0
+**Total de bugs encontrados:** 2
 
 ### 3.1.1 - BUG311
 **Rotina:** Cadastro de alunos
-<br />**Descrição:** Cadastro de alunos não exibe quantidade de parcelas pagas corretamente.
-<br />**Simulação:** Acessar home da aplicação, clicar no menu alunos, cadastrar aluno, informar os campos e clicar em salvar.
+<br />**Descrição:** Cadastro de alunos não exibe mensagem de erro ao cadastrar registro com CPF já existente e redireciona para uma página de erro não tratado.
+<br />**Simulação:** Acessar home da aplicação, clicar no menu alunos, cadastrar aluno, informar todos os campos e um cpf já cadastrado e clicar em salvar.
 <br />**Critérios de aceite:**
 <br /><br />**CA3111:** 
-<br />Dado que exista um aluno com todos as parcelas pagas;
-<br />Ao acessar o cadastro de alunos;
-<br />O campo parcelas em aberto deve exibir o valor "Nenhuma";
+<br />Dado que exista um aluno cadastrado com CPF 9.999.999-99;
+<br />Ao acessar o cadastro de alunos e tentar cadastrar outro aluno com mesmo cpf;
+<br />Uma mensagem de alerta deve ser exibida informando que o cpf já foi cadastrado;
 
-## 2.2 - Cadastro de cursos
+### 3.1.2 - BUG312
+**Rotina:** Cadastro de alunos
+<br />**Descrição:** Cadastro de alunos não exibe mensagem de confirmação ao salvar registro.
+<br />**Simulação:** Acessar home da aplicação, clicar no menu alunos, cadastrar aluno, informar todos os campos e clicar em salvar.
+<br />**Critérios de aceite:**
+<br /><br />**CA3121:** 
+<br />Dado que exista um aluno esteja sendo cadastrado;
+<br />Ao informar todos os campos e clicar em salvar;
+<br />Uma mensagem de confirmação deve ser exibida informando que o aluno será cadastrado, assim como quando um aluno é excluído;
+
+## 3.2 - Cadastro de cursos
 <br />**Total de bugs encontrados:** 0
 
-## 2.4 - Cadastro de matrículas
+## 3.4 - Cadastro de matrículas
 <br />**Total de bugs encontrados:** 0
 
-## 2.5 - Listagem de matrículas
+## 3.5 - Listagem de matrículas
 <br />**Total de bugs encontrados:** 0
 
-## 2.6 - Dashboard de matrícula
+### 3.5.1 - BUG351
+**Rotina:** Listagem de Matrículas
+<br />**Descrição:** Listagem de matrículas não possui filtro por ano.
+<br />**Simulação:** Acessar home da aplicação, clicar no menu matrículas, listagem.
+<br />**Critérios de aceite:**
+<br /><br />**CA3511:** 
+<br />Dado que seja acessada a listagem de matrículas.
+<br />Um campo para informar o ano para filtro deve ser exibido
+<br />Ao informar o campo, a lista de matrículas deve trazer somente os registros do ano informado.
+
+## 3.6 - Dashboard de matrícula
 <br />**Total de bugs encontrados:** 0
 
-## 2.7 - Pagamento
+## 3.7 - Pagamento
 <br />**Total de bugs encontrados:** 0
 
-## 2.8 - Cancelamento de matrículas
+## 3.8 - Cancelamento de matrículas
 <br />**Total de bugs encontrados:** 0
 
 # 4 - Protótipo de um checklist de teste;
