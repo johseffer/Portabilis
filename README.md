@@ -7,9 +7,12 @@
 
 ## 2.1 - Cadastro de alunos
   - [x] Cadastro possui os campos em conformidade com os requisitos.
-  - [x] Cadastro deve validar cadastro de registro com CPF duplicado.
-  - [x] Cadastro deve emitir mensagem ao salvar e excluir um registro.
-<br /><br />**Total de requisitos em conformidade:** 3/3
+  
+  - [ ] Cadastro deve validar cadastro de registro com CPF duplicado.
+  
+  - [ ] Cadastro deve emitir mensagem ao salvar e excluir um registro.
+  
+<br /><br />**Total de requisitos em conformidade:** 1/3
   
 ## 2.2 - Cadastro de cursos
   - [x] Cadastro possui os campos em conformidade com os requisitos.
@@ -29,6 +32,8 @@
 
 ## 2.7 - Pagamento
  - [x] Cadastro possui os campos em conformidade com os requisitos.
+ - [x] item 2
+ - [x] item 3 
 <br /><br />**Total de requisitos em conformidade:** 1/1
 
 ## 2.8 - Cancelamento de matrículas
@@ -109,8 +114,9 @@ O projeto com as automações dos testes de interface foi desenvolvido utilizand
 ### 5.1.3 - Download: 
 * 5.1.3.1 - Baixar o projeto disponível em: [Tests](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests)
 
+** IMPORTANTE: ** A pasta Tests deve ser copiada para o diretório C:/TFS/Portabilis para que os executáveis facilitadores funcionem corretamente, caso seja necessário extrair a solução para outro diretório, os testes devem ser executados manualmente.
+
 ### 5.1.4 - Instruções de execução:
-* 5.1.4.1 - Após ter instalado o Visual Studio 2017, abrir o arquivo da solution (*.sln) em [PortabilisTests.sln](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/PortabilisTests.sln).
-* 5.1.4.2 - Será aberta a solution de testes com todos os testes organizados por rotina.
-* 5.1.4.3 - Executar o atalho de teclas "Ctrl+Shift+B" para baixar os pacotes necessários e compilar a solução.
-* 5.1.4.4 - Para facilitar a execução sem uso da interface da IDE, foi incluído um executável para startar a execução de todos os testes. Disponível em: [ExecutarTestes.exe](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/ExecutarTestes.exe).
+* 5.1.4.1 - Após ter instalado o Visual Studio 2017.
+* 5.1.4.2 - Executar o arquivo [build.exe](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/build.exe) para baixar os pacotes necessários e compilar a solução.
+* 5.1.4.3 - Para facilitar a execução sem uso da interface da IDE, foi incluído um executável para startar a execução de todos os testes. Disponível em: [ExecutarTodosTestes.exe](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/ExecutarTodosTestes.exe).
