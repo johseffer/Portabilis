@@ -1,0 +1,1 @@
+"C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" C:\TFS\Portabilis\Tests\PortabilisTests.csproj /p:Configuration=Debug

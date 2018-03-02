@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="ListaTodosOsTestes" storage="c:\tfs\portabilis\tests\listatodosostestes.orderedtest" id="f14fca7b-a984-4b55-ab1f-927bbbe1d99b" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="f6303017-46a3-303c-7b42-3f1e196cfa7a" name="CN001_Alunos_CadastrarAlunoCPFDuplicado" storage="bin\debug\portabilistests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="27816197-7173-f1ae-5021-6c3005ed30a8" name="CN001_Alunos_ExcluirAluno" storage="bin\debug\portabilistests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="55e168ba-f13f-e937-1493-842e5817480d" name="CN002_Cursos_CadastrarCurso" storage="bin\debug\portabilistests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="ListaTestesGoogleChrome" storage="c:\tfs\portabilis\tests\chrome\listatestesgooglechrome.orderedtest" id="5523cbff-a497-4a48-a54c-33191084c41d" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="a574ba42-df03-50df-fdec-51c19eec8f92" name="CN001_Alunos_ValidarCadastroAlunos" storage="..\bin\debug\portabilistests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="27816197-7173-f1ae-5021-6c3005ed30a8" name="CN001_Alunos_ExcluirAluno" storage="..\bin\debug\portabilistests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="f5af3753-e1af-d627-4546-d84b55a25a5c" name="CN002_Cursos_ValidarCadastroCursos" storage="..\bin\debug\portabilistests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="6f235939-2e12-b7a9-cfb1-70ddb2ba4e4c" name="CN002_Cursos_ExcluirCurso" storage="..\bin\debug\portabilistests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="28b6c15c-8047-9482-b9ce-e4cbb5135e51" name="CN003_Matriculas_ValidarCadastroMatriculas" storage="..\bin\debug\portabilistests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>
