@@ -37,10 +37,13 @@
 <br /><br />**Total de requisitos em conformidade:** 2/3
 
 ## 2.6 - Dashboard de matrícula
+
  - [x] Cadastro possui os campos em conformidade com os requisitos.
+ 
 <br /><br />**Total de requisitos em conformidade:** 1/1
 
 ## 2.7 - Pagamento
+
  - [x] Cadastro possui os campos em conformidade com os requisitos.
  - [x] Cadastro deve permitir pagamento de matricula/mensalidades, possibilitando troco ao cliente e informando quantidade de cedulas/moedas.
  - [x] Matricula deve ser paga apenas uma vez.
@@ -49,6 +52,7 @@
 <br /><br />**Total de requisitos em conformidade:** 4/4
 
 ## 2.8 - Cancelamento de matrículas
+
  - [x] Deve ser possível efetuar o cancelamento das matriculas do aluno.
  - [x] Deve ser exibido ao aluno o valor de multa.
  - [ ] Deve ser cobrado o valor de 1% ao mês e o aluno poderá continuar tendo acesso ao curso.
