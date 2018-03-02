@@ -76,7 +76,7 @@
 <br />**Simulação:** Acessar home da aplicação, clicar no menu alunos, cadastrar aluno, informar todos os campos e clicar em salvar.
 <br />**Critérios de aceite:**
 <br /><br />**CA3121:** 
-<br />Dado que exista um aluno esteja sendo cadastrado;
+<br />Dado que um aluno esteja sendo cadastrado;
 <br />Ao informar todos os campos e clicar em salvar;
 <br />Uma mensagem de confirmação deve ser exibida informando que o aluno será cadastrado, assim como quando um aluno é excluído;
 
