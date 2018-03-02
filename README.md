@@ -49,7 +49,11 @@
 <br /><br />**Total de requisitos em conformidade:** 4/4
 
 ## 2.8 - Cancelamento de matrículas
- - Não foi possível validar os requisitos.
+ - [x] Deve ser possível efetuar o cancelamento das matriculas do aluno.
+ - [x] Deve ser exibido ao aluno o valor de multa.
+ - [ ] Deve ser cobrado o valor de 1% ao mês e o aluno poderá continuar tendo acesso ao curso.
+ 
+ <br /><br />**Total de requisitos em conformidade:** 2/3
 
 # 3 - Lista de bugs com descrição para o desenvolvedor ajustar;
 
@@ -102,7 +106,17 @@
 <br />**Total de bugs encontrados:** 0
 
 ## 3.8 - Cancelamento de matrículas
-<br />**Total de bugs encontrados:** 0
+<br />**Total de bugs encontrados:** 1
+
+### 3.8.1 - BUG381
+**Rotina:** Cancelamento de Matrículas
+<br />**Descrição:** Ao cancelar a matrícula de um aluno, o acesso ao curso e as parcelas pagas foi perdido.
+<br />**Simulação:** Acessar home da aplicação, acessar meus cursos e selecionar o curso desejado para em seguida cancelar a matricula.
+<br />**Critérios de aceite:**
+<br /><br />**CA3811:** 
+<br />Dado que um aluno esteja matriculado em um curso
+<br />Ao logar como o aluno, acessar os detalhes da matricula no curso e clicar em cancelar matricula
+<br />Uma mensagem de confirmação deve ser exibida informando a taxa de 1% ao mês e o valor total da multa, e caso confirmado a matricula deve ser inativada, permitindo para o aluno consultar o curso com a matricula cancelada e suas mensalidades pagas anteriormente.
 
 # 4 - Protótipo de um checklist de teste;
 
