@@ -165,17 +165,18 @@ O projeto com as automações dos testes de interface foi desenvolvido utilizand
 ### 5.1.3 - Download: 
 * 5.1.3.1 - Baixar o projeto disponível em: [Tests](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests)
 
-** IMPORTANTE: ** A pasta Tests deve ser copiada para o diretório C:/TFS/Portabilis para que os executáveis facilitadores funcionem corretamente, caso seja necessário extrair a solução para outro diretório, os testes devem ser executados manualmente.
+** IMPORTANTE: ** A pasta Tests deve ser copiada para o diretório C:/TFS/Portabilis para que os executáveis facilitadores funcionem corretamente, caso seja necessário extrair a solução para outro diretório, os testes devem ser executados manualmente abrindo a IDE, utilizando o atalho Ctrl + Shift + B para baixar os pacotes necessários e compilar a solução e utilizar o gerenciar do testes da IDE para iniciar a execução.
 
 ### 5.1.4 - Instruções de execução:
-* 5.1.4.1 - Após ter instalado o Visual Studio 2017.
-* 5.1.4.2 - Executar o arquivo [build.exe](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/build.exe) para baixar os pacotes necessários e compilar a solução.
-* 5.1.4.3 - Para facilitar a execução sem uso da interface da IDE, foi incluído um executável para startar a execução de todos os testes no navegador google chrome. Disponível em: [ExecutarTodosTestes.exe](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/ExecutarTodosTestes.exe).
-* 5.1.4.4 - Após a finalização da execução dos testes, um arquivo com o resultado dos testes é criado em Tests/TestResults. É possível abrir o arquivo com os resultados via IDE, ou criar uma ferramenta que extraia os resultados para gerar indicadores.
-* 5.1.4.5 - Para visualizar o código dos testes, é possível abrir o arquivo da solution [PortabilisTests.sln](https://github.com/johseffer/Portabilis/blob/master/Tests/PortabilisTests.sln) com a IDE.
-* 5.1.4.6 - Os scripts de testes foram organizados separadamente pelos cenários:
+* 5.1.4.1 - Após ter instalado o Visual Studio 2017 e Nuget Package Manager.
+* 5.1.4.1 - Executar o arquivo [download.bat](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/download.bat) para baixar os pacotes necessários.
+* 5.1.4.3 - Executar o arquivo [build.bat](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/build.bat) compilar a solução.
+* 5.1.4.4 - Para facilitar a execução sem uso da interface da IDE, foi incluído um executável para startar a execução de todos os testes no navegador google chrome. Disponível em: [ExecutarTodosTestes.bat](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/ExecutarTodosTestes.bat).
+* 5.1.4.5 - Após a finalização da execução dos testes, um arquivo com o resultado dos testes é criado em Tests/TestResults. É possível abrir o arquivo com os resultados via IDE, ou criar uma ferramenta que extraia os resultados para gerar indicadores.
+* 5.1.4.6 - Para visualizar o código dos testes, é possível abrir o arquivo da solution [PortabilisTests.sln](https://github.com/johseffer/Portabilis/blob/master/Tests/PortabilisTests.sln) com a IDE.
+* 5.1.4.7 - Os scripts de testes foram organizados separadamente pelos cenários:
   - 5.1.4.5.1 - CN001_Alunos.
   - 5.1.4.5.2 - CN002_Cursos.
   - 5.1.4.5.3 - CN001_Matriculas.
-* 5.1.4.7 - Os scripts foram criados para execução nos navegadores Google Chrome, Mozilla Firefox e Microsoft Edge, separados assim dentro do projeto com um diretório para cada navegador.
+* 5.1.4.8 - Os scripts foram criados para execução nos navegadores Google Chrome, Mozilla Firefox e Microsoft Edge, separados assim dentro do projeto com um diretório para cada navegador.
 
