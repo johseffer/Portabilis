@@ -160,6 +160,7 @@ O projeto com as automações dos testes de interface foi desenvolvido utilizand
 
 ### 5.1.2 - Pré-Requisitos:
 * 5.1.2.1 - Visual Studio 2017 Community - https://www.visualstudio.com/pt-br/vs/community (Versão gratuita, também é possível instalar a versão enterprise de avaliação;
+* 5.1.2.2 - Navegadores Google Chrome, Mozilla Firefox e Microsft Edge.
 
 ### 5.1.3 - Download: 
 * 5.1.3.1 - Baixar o projeto disponível em: [Tests](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests)
@@ -169,7 +170,7 @@ O projeto com as automações dos testes de interface foi desenvolvido utilizand
 ### 5.1.4 - Instruções de execução:
 * 5.1.4.1 - Após ter instalado o Visual Studio 2017.
 * 5.1.4.2 - Executar o arquivo [build.exe](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/build.exe) para baixar os pacotes necessários e compilar a solução.
-* 5.1.4.3 - Para facilitar a execução sem uso da interface da IDE, foi incluído um executável para startar a execução de todos os testes. Disponível em: [ExecutarTodosTestes.exe](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/ExecutarTodosTestes.exe).
+* 5.1.4.3 - Para facilitar a execução sem uso da interface da IDE, foi incluído um executável para startar a execução de todos os testes no navegador google chrome. Disponível em: [ExecutarTodosTestes.exe](https://github.com/johseffer/Portabilis/blob/develop-1.1/Tests/ExecutarTodosTestes.exe).
 * 5.1.4.4 - Após a finalização da execução dos testes, um arquivo com o resultado dos testes é criado em Tests/TestResults. É possível abrir o arquivo com os resultados via IDE, ou criar uma ferramenta que extraia os resultados para gerar indicadores.
 * 5.1.4.5 - Para visualizar o código dos testes, é possível abrir o arquivo da solution [PortabilisTests.sln](https://github.com/johseffer/Portabilis/blob/master/Tests/PortabilisTests.sln) com a IDE.
 * 5.1.4.6 - Os scripts de testes foram organizados separadamente pelos cenários:
