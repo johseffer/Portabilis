@@ -1,0 +1,1 @@
+"C:\TFS\Portabilis\nuget.exe" restore "C:\TFS\Portabilis\Tests"
